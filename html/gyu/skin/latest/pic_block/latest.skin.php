@@ -8,9 +8,7 @@ $thumb_height = 150;
 $list_count = (is_array($list) && $list) ? count($list) : 0;
 
 ?>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -48,9 +46,9 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
     게시물이 없습니다.
     <?php }  ?>
     </div>
-     <div class="swiper-pagination"></div>
-     <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
     
 </div>
 <script>
